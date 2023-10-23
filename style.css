@@ -2,18 +2,173 @@
  * Assignment 02
  * CSS FILE
  */
-
 body {
+  background-color: rgb(20, 33, 61);
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
+  color: rgb(229, 229, 229);
+
+  
+
+.pkmn-main-image {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0rem 2rem 0rem;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+.top-title {
+  font-size: 40px;
+  padding: 2rem 0rem 1rem 0.5rem;
+}
+
+.top-text {
+  padding-left: 0.5rem;
+}
+
+.navigation a {
+  color: rgb(252,163,17);
+}
+
+.toc a {
+  color: rgb(252,163,17);
+}
+
+.main-title {
   text-align: center;
-  color: #023047;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  font-size: 55px;
+}
+
+.intro {
+  text-align: center;
+  padding: 2rem 0rem 3rem 0rem;
+}
+
+.list-intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.pkmn-second-image {
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.list-space {
+  margin: auto;
+  width: 90%;
+}
+
+.list-title {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  font-size: 40px;
+}
+
+.pkmn-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+  list-style: none;
+  background-color: rgb(14, 24, 44);
+  border-radius: 1rem;
+  font-weight: bold;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+}
+.pkmn-list > li {
+  margin: 10px;
+  text-align: center;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+.pkmn-list > li:nth-child(1) {
+  background-color: rgb(97, 118, 224);
+  align-items: center;
+  justify-content: center;
+}
+.pkmn-list > li:nth-child(2) {
+  background-color: rgb(233, 169, 79);
+  align-items: center;
+  justify-content: center;
+}
+.pkmn-list > li:nth-child(3) {
+  background-color: rgb(197, 149, 239);
+  align-items: center;
+  justify-content: center;
+}
+.pkmn-list > li:nth-child(4) {
+  background-color: rgb(239, 149, 149);
+  align-items: center;
+  justify-content: center;
+}
+.pkmn-list > li:nth-child(5) {
+  background-color: rgb(60, 60, 60);
+  align-items: center;
+  justify-content: center;
+}
+.pkmn-list > li:nth-child(6) {
+  background-color: rgb(239, 149, 221);
+  align-items: center;
+  justify-content: center;
+}
+.pkmn-list > li:nth-child(7) {
+  background-color: rgb(51, 81, 230);
+  align-items: center;
+  justify-content: center;
+}
+.pkmn-list > li:nth-child(8) {
+  background-color: rgb(131, 151, 251);
+  align-items: center;
+  justify-content: center;
+}
+.pkmn-list > li:nth-child(9) {
+  background-color: rgb(239, 149, 221);
+  align-items: center;
+  justify-content: center;
+}
+.pkmn-list > li:nth-child(10) {
+  background-color: rgb(197, 149, 239);
+  align-items: center;
+  justify-content: center;
+}
+.vote {
+  display: flex;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color:rgb(14, 24, 44) ;
+  margin-top: 2rem;
+}
+.left-side-image {
+  margin-right: 1px;
+  width: 60%;
+  height: auto;
+}
+.right-side-text {
+  text-align: center;
+  align-self: center;
+}
+
+.button {
+  background-color: rgb(252,163,17);
+  color: rgb(229, 229, 229);
+  border-radius: 0.40rem;
+  width: 200px;
+  text-align: center;
+  font-size: 50px;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.footer-list a {
+  color: rgb(252,163,17);
 }
